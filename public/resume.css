@@ -1,0 +1,36 @@
+* {
+   background-color: #fff;
+}
+
+div {
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #48AAAD;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: left;
+    background-color: #48AAAD;
+}
+
+p {
+    background-color: #48AAAD; 
+}
+
+ul {
+    background-color: #48AAAD;
+}
+
+li {
+    background-color: #48AAAD;
+}
+
+strong {
+    background-color: #48AAAD;
+}
