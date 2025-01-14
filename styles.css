@@ -1,0 +1,162 @@
+* {
+    background-color: #242424;
+}
+
+h1 {
+    text-align: center;
+}
+
+.par1 {
+    background-color: #003F7D;
+}
+
+.subheading1 {
+    padding: 0 auto;
+    margin: 10px;
+    background-color: #003F7D;
+}
+
+.contd {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #000;
+    border-radius: 18px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.contd::-webkit-scrollbar {
+    display: none;
+  }
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.imgcntrl{
+    border-radius: 100px;
+}
+
+.grid-container1 {
+    height: 50vh;
+    display: grid ;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid-item1 {
+    grid-column: span 3;
+    background-color: #003F7D;
+    border: 2px solid #003F7D;
+}
+
+.grid-item2 {
+    grid-column: span 2;
+    background-color: #FF8E00;
+    border: 2px solid #FF8E00;
+}
+
+.par3 {
+    background-color: #FF8E00;
+}
+
+.heading1 {
+    background-color: #FF8E00;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 666pxpx;
+    font-weight: bold;
+}
+
+.grid-item3 {
+    grid-column: span 1;
+    background-color: #023047;
+    border: 2px solid #023047;
+}
+
+.grid-container2 {
+    height: 50vh;
+    display: grid ;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.space1 {
+    margin-top: 1rem;
+}
+
+.grid-item4 {
+   grid-column: span 1;
+   grid-row: span 2;
+   background-color: #FF5003;
+   border: 2px solid #FF5003;
+   border-radius: 18px;
+   overflow: hidden;
+   overflow-y: scroll;
+
+}
+
+.grid-item4::-webkit-scrollbar {
+    display: none;
+  }
+
+.items {
+    display: flex;
+    flex-direction: column;
+    border-radius: 18px;
+    background-color: #FF5003;
+    border: 2px solid #FF5003;
+    text-align: center;
+    height: 57px;
+    margin: 0%;
+}
+
+.connector1 {
+    margin-top: 1px;
+}
+
+.connector6 {
+    margin-bottom: 1px;
+}
+
+.grid-item5 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-color: #003366;
+    border: 2px solid #003366;
+    
+}
+
+.info-block {
+    display: flex;
+    justify-content: center;
+    border: 2px solid #FD7702;
+    background-color: #FD7702;
+    border-radius: 18px ;
+}
+
+.par2 {
+    background-color: #FD7702;
+}
+
+.subheading2 {
+    padding: 0 auto;
+    margin: 10px;
+    background-color: #FD7702;
+}
+
+.hover-box:hover {
+background-color: #000;
+}
+
+@media screen and (max-width: 800px){
+    .grid-container1 {
+        width: 100%;
+        height: 100%;
+    }
+}
